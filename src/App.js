@@ -58,6 +58,8 @@ class App extends Component {
             itemHash={itemHash}
             item={item}
             feature={feature}
+            selected={this.state.selected}
+            updateFeature={this.updateFeature}
           />
         );
       });
